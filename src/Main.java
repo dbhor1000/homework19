@@ -20,7 +20,7 @@ public class Main {
         DriverCategoryD driver9 = new DriverCategoryD("Пётр", true, 10, "D");
         DriverCategoryD driver10 = new DriverCategoryD("Святослав", true, 12, "D");
         DriverCategoryD driver11 = new DriverCategoryD("Денис", true, 8, "D");
-        DriverCategoryD driver12 = new DriverCategoryD("Арсений", true, 13, "D");
+        DriverCategoryD driver12 = new DriverCategoryD("Арсений", true, 13, "C");
 
         //Транспортные средства, участвующие в гонках
 
