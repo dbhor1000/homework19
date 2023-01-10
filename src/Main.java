@@ -37,7 +37,7 @@ public class Main {
 
 
         Bus bus1 = new Bus("Вольво", "B11R", 3.6, driver9, Bus.BusTypes.Средняя);
-        Bus bus2 = new Bus("MAN", "Bus1", 3.7, driver10);
+        Bus bus2 = new Bus("MAN", "Bus2", 3.7, driver10);
         Bus bus3 = new Bus("Marcopolo", "Multego", 3.6, driver11);
         Bus bus4 = new Bus("King Long", "XMQ6996Y", 4.0, driver12);
 
