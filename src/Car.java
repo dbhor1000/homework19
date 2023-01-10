@@ -97,7 +97,7 @@ public class Car extends Transport implements Transport.Competitor, Transport.Dr
     @Override
     public void undergoDiagnostic() throws DriverLicenseException {
 
-        if (driver.getDriverLicenseCategory() == "B") {
+        if (driver.getDriverLicenseCategory().equals("B")) {
             System.out.println("Автомобиль " + model + " " + subModel + " проходит диагностику.");
         } else {
             throw new DriverLicenseException("У водителя " + model + " " + subModel + " неподходящая категория прав " + driver.getDriverLicenseCategory() + " .");

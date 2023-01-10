@@ -85,7 +85,7 @@ public class Truck extends Transport implements Transport.Competitor, Transport.
     @Override
     public void undergoDiagnostic() throws DriverLicenseException {
 
-        if (driver.getDriverLicenseCategory() == "C") {
+        if (driver.getDriverLicenseCategory().equals("C")) {
             System.out.println("Грузовик " + model + " " + subModel + " проходит диагностику.");
         } else {
             throw new DriverLicenseException("У водителя " + model + " " + subModel + " неподходящая категория прав " + driver.getDriverLicenseCategory() + " .");
